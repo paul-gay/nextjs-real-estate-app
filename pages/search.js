@@ -55,7 +55,7 @@ const Search = ({ properties }) => {
             {/* if no properties -- show error message */}
             {properties.length === 0 && (
                 <Flex justifyContent='center' alignItems='center' flexDir='column' marginTop='5' marginBottom='5'>
-                    <Image src={noresult} />
+                    <Image src={noresult} alt='no results' />
                     <Text fontSize='xl' marginTop='3'>No Result Found.</Text>
                 </Flex>
             )}
